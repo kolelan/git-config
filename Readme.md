@@ -10,3 +10,19 @@
 ```shell
 git config --list --show-origin
 ```
+
+# Установка имени пользователя
+```shell
+git config --global user.name "Your name (Login, not email)"
+git config --global user.email "Your email"
+```
+
+# Выбор редактора
+```shell
+git config --global core.editor emacs
+```
+
+# Настройка ветки по умолчанию
+```shell
+git config --global init.defaultBranch main
+```
